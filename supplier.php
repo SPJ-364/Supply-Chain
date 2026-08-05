@@ -1,7 +1,6 @@
 <?php
 require_once 'config.php';
 
-// Fetch suppliers
 $result = $conn->query("SELECT * FROM suppliers ORDER BY id DESC");
 ?>
 
