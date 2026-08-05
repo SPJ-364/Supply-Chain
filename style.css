@@ -1,1 +1,33 @@
+:root {
+    --primary-color: #0d6efd;
+    --dark-bg: #1e293b;
+    --light-card: #ffffff;
+}
 
+body {
+    background-color: #f8fafc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #334155;
+}
+
+.navbar-custom {
+    background-color: var(--dark-bg);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.card-custom {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    background-color: var(--light-card);
+}
+
+.btn-custom {
+    border-radius: 8px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.btn-custom:hover {
+    transform: translateY(-1px);
+}
